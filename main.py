@@ -2,7 +2,7 @@ from slack import RTMClient
 from chatgpt import ChatGPT
 
 # 발급받은 슬랙 bot user token 기
-bot_token = "<your-slack-bot-token>"
+bot_token = "<xoxb-2274196476995-4961157041972-0z50BZOt3Csu7QHUvUkt00G3>"
 
 # 지속적으로 슬랙 메세지 트래킹
 @RTMClient.run_on(event="message")
